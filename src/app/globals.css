@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer base {
+  .title-components {
+    @apply text-[5vw] md:text-[3.5vw] lg:text-[2.3vw] text-center font-bold capitalize drop-shadow-xl;
+  }
+
+  /* SIGN UP */
+  .input-sign-up,
+  .input-date,
+  .input-year,
+  .input-month,
+  .login {
+    @apply text-[3.3vw] border-2 border-slate-400 w-full h-[8vw] rounded-md outline-primaryGrand md:text-[2.3vw] md:h-[6vw] lg:text-[1.1vw] lg:h-[2.5vw] xl:text-[1vw] 2xl:text-[0.9vw];
+  }
+
+  .input-sign-up,
+  .login {
+    @apply p-2;
+  }
+  /* END SIGN UP */
+
+  /* EDUKASI */
+  .item-edukasi-sampah {
+    @apply flex flex-col border-b-2 border-b-slate-400 py-10 md:flex-row md:gap-8;
+  }
+
+  .title-edukasi-sampah {
+    @apply mt-5 mb-3 text-center text-primaryRed text-[4.5vw] font-bold md:mt-0 md:text-start md:text-[3vw] lg:text-[1.5vw];
+  }
+
+  .img-edukasi-sampah {
+    @apply overflow-hidden w-[60vw] h-[60vw] rounded-xl md:w-[40vw] md:h-[40vw] 
+    lg:w-[30vw] lg:h-[30vw] xl:w-[30vw] xl:h-[20vw];
+  }
+
+  .img-edukasi-sampah img {
+    @apply duration-150 md:hover:scale-110 lg:cursor-pointer object-cover w-full h-full md:mx-auto;
+  }
+  /* END EDUKASI */
+
+  /* PENGADUAN */
+  .item-form label,
+  .item-select label,
+  .item-file label,
+  .item-textarea label,
+  .input-form-KS label {
+    @apply md:text-[2.5vw] lg:text-[1.3vw] xl:text-[1.1vw] 2xl:text-[1vw];
+  }
+
+  .item-form input {
+    @apply p-2;
+  }
+
+  .item-form input,
+  .item-select select {
+    @apply border-2 border-slate-400 h-[8vw] text-black outline-primaryGrand rounded-md md:h-[6vw] md:text-[2.7vw] xl:h-[2.2vw] xl:text-[1.1vw] 2xl:text-[1vw];
+  }
+
+  .item-file input {
+    @apply cursor-pointer text-black outline-slate-400 rounded-md;
+  }
+
+  .item-select option {
+    @apply text-[2vw] md:text-[1.4vw] lg:text-[1.1vw] xl:text-[1vw] 2xl:text-[0.9vw];
+  }
+
+  /* KRITIK SARAN */
+  .input-form-KS input {
+    @apply border-2 border-slate-400 outline-primaryGrand rounded-md p-2 h-[8vw] md:h-[6vw] lg:h-[2.5vw];
+  }
+
+  .input-form-KS input,
+  .input-form-KS textarea {
+    @apply md:text-[2.7vw] lg:text-[1.3vw] xl:text-[1.1vw];
+  }
+  /* EDN PENGADUAN */
+
+  /* LIVE CHAT */
+  .active {
+    @apply opacity-100 visible bottom-20 transition-all bg-red-400;
+  }
+
+  .inactive {
+    @apply opacity-0 hidden bottom-10 transition-all;
+  }
+}

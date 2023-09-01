@@ -1,6 +1,5 @@
 "use client"
 
-import PieChart from "@/components/pieChart"
 import LadampaTerkini from "@/components/ladampaTerkini"
 import Testimoni from "@/components/testimoni"
 import BarChart from "@/components/verticalBarChart"
@@ -37,8 +36,7 @@ export default function Home() {
         </div>
       </div>
       <BarChart />
-      {/* <Maps /> */}
-      {/* <PieChart /> */}
+      <Maps />
       <LadampaTerkini />
       <Testimoni />
     </div>

@@ -1,7 +1,6 @@
 import Image from "next/image"
 
 // assets
-import brand from "../../public/assets/brand.png"
 import ig from "../../public/assets/ig.svg"
 import wa from "../../public/assets/wa.svg"
 import email from "../../public/assets/email.svg"

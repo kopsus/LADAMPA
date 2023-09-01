@@ -103,13 +103,13 @@ export default function BarChart() {
                 type="submit"
                 className="bg-primaryGrand px-3 py-[2px] rounded-md text-white text-[2.7vw] shadow-md hover:bg-darkGreen md:text-[2vw] lg:text-[1vw]"
               >
-                cari
+                carii
               </button>
             </div>
           </form>
         </div>
 
-        <div className="mb-5 mx-auto">
+        <div className="mb-5 mx-auto ">
           <Bar options={options} data={data}></Bar>
         </div>
 

@@ -147,10 +147,6 @@ export default function Berita() {
         Berita
       </p>
       <div className="bg-blueGreen p-5 lg:px-12 xl:px-16">
-        {/* <p className="md:hidden font-bold text-primaryRed text-[4vw] md:text-[2.5vw] lg:text-[1.5vw] md:w-[60%]">
-          Banyumas Bangun Tempat Pengolahan Sampah Senilai Rp50,3 Miliar
-        </p> */}
-
         <div className="flex flex-col md:flex-row gap-5 mt-3 mb-16">
           <div className="md:flex-1 overflow-hidden h-[55vw] rounded-xl md:h-[40vw] lg:h-[30vw] xl:h-[25vw]">
             <Link href="/berita/detail-berita">

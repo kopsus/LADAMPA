@@ -26,7 +26,6 @@ const config: Config = {
         primaryRed: "#FF0000",
         darkRed: "#9D0A0A",
         primaryPurple: "#730E5D",
-        // asu: "#0094A6",
       },
     },
   },

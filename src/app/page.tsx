@@ -41,8 +41,8 @@ export default function Home() {
         </div>
       </div>
       <BarChart />
-      <Maps />
-      <PieChart />
+      {/* <Maps /> */}
+      {/* <PieChart /> */}
       <LadampaTerkini />
       <Testimoni />
     </div>

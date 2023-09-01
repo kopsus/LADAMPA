@@ -12,7 +12,7 @@ export default function LadampaTerkini() {
 
   return (
     <>
-      <p className="text-primaryGrand title-components">
+      <p className="text-primaryGrand title-components mt-12 lg:mt-32">
         <span className="underline">LADAMPA</span> Terkini
       </p>
       <div className="px-5 py-5 mt-10 bg-blueGreen lg:px-10 lg:py-1 2xl:px-14">

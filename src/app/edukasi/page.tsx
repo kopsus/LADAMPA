@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 // assets
 import img from "../../../public/assets/wrapperEdukasi.svg"
 

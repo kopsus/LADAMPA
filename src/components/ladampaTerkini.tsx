@@ -19,10 +19,10 @@ export default function LadampaTerkini() {
         <div className="lg:my-10">
           {/* deskripsi */}
           <div className="mb-7 md:my-5 lg:my-0 flex flex-col gap-3 order-1">
-            <p className="text-primaryRed text-[3.9vw] md:text-[2.4vw] lg:text-[1.4vw] font-bold">
+            <p className="text-primaryRed text-[4vw] md:text-[2.4vw] lg:text-[1.4vw] font-bold">
               BANYUMAS BERSIH, BANYUMAS SEHAT!
             </p>
-            <div className="text-[3.8vw] md:text-[2.1vw] lg:text-[1.3vw] flex flex-col gap-3">
+            <div className="text-[3.9vw] md:text-[2.1vw] lg:text-[1.3vw] flex flex-col gap-3">
               <p>
                 Seiring dengan perkembangan zaman dan gaya hidup modern,
                 peningkatan sampah telah menjadi isu serius yang mengancam

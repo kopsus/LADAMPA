@@ -18,7 +18,7 @@ export default function Home() {
     <div className="mt-20 z-10 md:mt-24 xl:mt-32 2xl:mt-36">
       <div className="flex flex-col gap-7 md:gap-12 lg:flex-row lg:items-center lg:px-10 lg:my-20 2xl:px-14">
         <div className="flex flex-col px-5 md:px-10 lg:px-12 lg:order-1">
-          <div className=" text-[2.5vh] lg:text-primaryGrand md:text-[3vh] lg:text-[2.5vw] font-bold lg:text-start">
+          <div className=" text-[2.5vh] text-primaryGrand md:text-[3vh] lg:text-[2.5vw] font-bold lg:text-start">
             <p className="drop-shadow-xl">
               Mari Peduli{" "}
               <span className="text-black">

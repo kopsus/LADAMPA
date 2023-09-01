@@ -13,7 +13,7 @@ export default function Maps() {
 
   return (
     <div className="px-6 lg:px-10 2xl:px-14">
-      <p className="title-components text-start md:text-center text-primaryGrand">
+      <p className="title-components md:text-center text-primaryGrand">
         Peta Daerah Banyumas Terkonfrimasi Teridentifikasi
       </p>
       <MapContainer
@@ -61,9 +61,8 @@ export default function Maps() {
         className="text-[2.8vw] md:text-[1.5vw] lg:text-[1.1vw]"
         style={borderStyle}
       >
-        Catatan: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-        omnis, et at corrupti odio cum? Non ad at commodi distinctio tenetur eum
-        dolorem assumenda ea, soluta vero eveniet ut autem!
+        Catatan: Titik wilayah transmisi lokal kasus tertumpuknya sampah
+        didasarkan pada node geografis pada kecamatan daerah Banyumas
       </p>
     </div>
   )

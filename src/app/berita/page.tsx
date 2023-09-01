@@ -9,7 +9,7 @@ export default function Page() {
   return (
     <div className="z-10 mt-20 2xl:mt-32">
       <div
-        className="relative mb-7 mx-auto w-[90%] h-[45vw] md:mt-24 lg:h-[35vw] rounded-xl lg:w-[90%]"
+        className="relative mb-7 mx-auto w-[90%] h-[55vw] md:mt-24 md:h-[50vw] lg:h-[35vw] rounded-xl lg:w-[90%]"
         style={{
           backgroundImage: `url(${img.src})`,
           backgroundPosition: "center",

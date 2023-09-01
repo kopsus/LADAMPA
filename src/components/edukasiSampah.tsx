@@ -53,7 +53,9 @@ const ContentEdukasiSampah = ({
         </div>
         <div className="md:order-2 flex-1 lg:text-[1.3vw]">
           <p className="title-edukasi-sampah">{title}</p>
-          <p>{desc}</p>
+          <p className="text-[4vw] md:text-[2.5vw] lg:text-[1.5vw] xl:text-[1.4vw]">
+            {desc}
+          </p>
         </div>
       </div>
       <div className="item-edukasi-sampah">
@@ -62,7 +64,9 @@ const ContentEdukasiSampah = ({
         </div>
         <div className="md:order-1 flex-1 lg:text-[1.3vw]">
           <p className="title-edukasi-sampah">{title2}</p>
-          <p>{desc2}</p>
+          <p className="text-[4vw] md:text-[2.5vw] lg:text-[1.5vw] xl:text-[1.4vw]">
+            {desc2}
+          </p>
         </div>
       </div>
       <div className="item-edukasi-sampah">
@@ -71,7 +75,9 @@ const ContentEdukasiSampah = ({
         </div>
         <div className="md:order-2 flex-1 lg:text-[1.3vw]">
           <p className="title-edukasi-sampah">{title3}</p>
-          <p>{desc3}</p>
+          <p className="text-[4vw] md:text-[2.5vw] lg:text-[1.5vw] xl:text-[1.4vw]">
+            {desc3}
+          </p>
         </div>
       </div>
       <div className="item-edukasi-sampah">
@@ -80,7 +86,9 @@ const ContentEdukasiSampah = ({
         </div>
         <div className="md:order-1 flex-1 lg:text-[1.3vw]">
           <p className="title-edukasi-sampah">{title4}</p>
-          <p>{desc4}</p>
+          <p className="text-[4vw] md:text-[2.5vw] lg:text-[1.5vw] xl:text-[1.4vw]">
+            {desc4}
+          </p>
         </div>
       </div>
       <div className="item-edukasi-sampah">
@@ -89,7 +97,9 @@ const ContentEdukasiSampah = ({
         </div>
         <div className="md:order-2 flex-1 lg:text-[1.3vw]">
           <p className="title-edukasi-sampah">{title5}</p>
-          <p>{desc5}</p>
+          <p className="text-[4vw] md:text-[2.5vw] lg:text-[1.5vw] xl:text-[1.4vw]">
+            {desc5}
+          </p>
         </div>
       </div>
     </div>
@@ -121,7 +131,7 @@ export default function EdukasiSampah() {
           desc5="Sampah residu merupakan sampah sisa di luar keempat jenis sampah di atas. Tempat sampah yang diperuntukan bagi tempat sampah residu umumnya berwarna abu-abu. Contoh sampah residu yaitu seperti popok bekas, bekas pembalut, bekas permen karet, atau puntung rokok."
         />
 
-        <p className="text-center my-5 mx-3 lg:mt-10 lg:mx-10 lg:text-[1.3vw]">
+        <p className="text-center my-5 mx-3 text-[4vw] md:text-[2.5vw] lg:text-[1.5vw] lg:mt-10 lg:mx-10 xl:text-[1.4vw]">
           Setelah mengenal kelima jenis sampah di atas, semoga Sobat dapat
           mengelompokkan sampah-sampah yang hendak dibuang dengan tepat ya. Akan
           lebih baik lagi kalau Sobat dapat memilah sampah yang ada di rumah

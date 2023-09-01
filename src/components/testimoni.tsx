@@ -51,7 +51,7 @@ const Carousel = ({ img, name, title, desc }: CarouselProps) => {
 export default function Testimoni() {
   return (
     <>
-      <div className="px-5 lg:px-0 my-10 md:my-20 pb-10 2xl:px=16">
+      <div className="px-5 lg:px-0 my-10 md:my-20 pb-10 2xl:px-16">
         <p className="title-components text-primaryGrand">
           Testimoni Teman <span className="underline">Ladampa</span>
         </p>
@@ -73,7 +73,7 @@ export default function Testimoni() {
           loop={true}
           navigation={true}
           modules={[Navigation]}
-          className="w-full my-10 lg:w-[95%] lg:mx-auto lg:my-20"
+          className="w-full my-10 lg:w-[95%] lg:mx-auto lg:mt-20"
         >
           <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
             <Carousel

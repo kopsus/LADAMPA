@@ -12,45 +12,14 @@ export default function LadampaTerkini() {
 
   return (
     <>
-      <p className="text-primaryGrand title-components mt-12 lg:mt-32">
+      <p className="text-primaryGrand title-components mt-12">
         <span className="underline">LADAMPA</span> Terkini
       </p>
-      <div className="px-5 py-5 mt-10 bg-blueGreen lg:px-10 lg:py-1 2xl:px-14">
-        <div className="md:grid md:grid-cols-2 md:gap-10 lg:gap-y-10 md:my-0 lg:my-10">
-          <div className="order-2">
-            <div className="my-7 md:my-5 lg:my-0">
-              <Image
-                src={posterLadampaTerkini}
-                alt=""
-                className="w-80% mx-auto"
-              />
-            </div>
-            <div className="text-[3.3vw] md:text-[2.3vw] lg:text-[1.1vw] my-5">
-              <p className=" text-center text-primaryBlue font-bold text-[3.5vw] md:text-[2vw] lg:text-[1.2vw]">
-                Ikuti Aksi “BANYUMAS BERSIH, BANYUMAS SEHAT !“
-              </p>
-              <div className="flex justify-center items-start my-3 gap-3 md:text-[1.8vw] lg:text-[1.1vw]">
-                <div className="flex flex-col">
-                  <p>Waktu</p>
-                  <p>Titik Kumpul</p>
-                  <p>Info Lanjut</p>
-                </div>
-                <div className="flex flex-col">
-                  <p>:</p>
-                  <p>:</p>
-                  <p>:</p>
-                </div>
-                <div className="flex flex-col">
-                  <p>Minggu, 21 Juli 2023 | 08.30 s.d Selesai</p>
-                  <p>Depan Gedung DPRD Banyumas</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
+      <div className="px-5 py-5 mt-5 bg-blueGreen md:px-10 lg:px-16 lg:py-1 2xl:px-14">
+        <div className="lg:my-10">
           {/* deskripsi */}
-          <div className="my-10 md:my-5 lg:my-0 flex flex-col gap-3 order-1">
-            <p className="text-primaryRed text-[4vw] md:text-[2.4vw] lg:text-[1.4vw]   font-bold">
+          <div className="mb-7 md:my-5 lg:my-0 flex flex-col gap-3 order-1">
+            <p className="text-primaryRed text-[3.9vw] md:text-[2.4vw] lg:text-[1.4vw] font-bold">
               BANYUMAS BERSIH, BANYUMAS SEHAT!
             </p>
             <div className="text-[3.8vw] md:text-[2.1vw] lg:text-[1.3vw] flex flex-col gap-3">
@@ -90,7 +59,7 @@ export default function LadampaTerkini() {
               <p className="text-primaryRed font-bold lg:text-[1.3vw]">
                 LADAMPA Edukasi
               </p>
-              <p className="text-[3.5vw] font-bold md:text-[2vw] lg:text-[1.1vw] xl:text-[0.9vw]">
+              <p className="text-[3.5vw] font-bold md:text-[1.8vw] lg:text-[1.1vw] xl:text-[0.9vw]">
                 Banjir yang Dusebabkan oleh Penumpukan Sampah pada Area Tanggul
                 Purwokerto Timur
               </p>
@@ -119,7 +88,7 @@ export default function LadampaTerkini() {
               <p className="text-primaryRed font-bold lg:text-[1.3vw]">
                 LADAMPA Berita
               </p>
-              <p className="text-[3.5vw] font-bold md:text-[2vw] lg:text-[1.1vw] xl:text-[0.9vw]">
+              <p className="text-[3.5vw] font-bold md:text-[1.8vw] lg:text-[1.1vw] xl:text-[0.9vw]">
                 Banjir yang Dusebabkan oleh Penumpukan Sampah pada Area Tanggul
                 Purwokerto Timur
               </p>
@@ -137,12 +106,12 @@ export default function LadampaTerkini() {
         </div>
       </div>
 
-      <div className="w-[80%] mx-auto mt-10 text-center" style={borderStyle}>
-        <p className="text-[2.7vw] md:text-[2vw] lg:text-[1.1vw] xl:text-[0.9vw] font-semibold mb-4">
+      <div className="w-[80%] mx-auto mt-5 text-center border-b-2 border-slate-400 pb-10">
+        <p className="text-[2.7vw] md:text-[1.8vw] lg:text-[1.1vw] xl:text-[0.9vw] font-semibold mb-4">
           *Info pengaduan penumpukan sampah Banyumas dan Sekitarnya
         </p>
         <Link href="/pengaduan">
-          <button className="px-3 py-1 rounded-md bg-primaryBlue text-[3vw] md:text-[2vw] lg:text-[1.1vw] xl:text-[0.9vw] text-white hover:bg-darkBlue">
+          <button className="px-3 py-1 rounded-md bg-primaryBlue text-[2.5vw] md:text-[1.6vw] lg:text-[1.1vw] xl:text-[0.9vw] text-white hover:bg-darkBlue">
             LANJUT KE PENGADUAN
           </button>
         </Link>

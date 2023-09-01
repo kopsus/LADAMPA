@@ -102,7 +102,7 @@ export default function EdukasiSampah() {
       <p className="title-components my-5 text-primaryGrand md:mt-16 lg:mt-20 lg:mb-10">
         Yuk, Mengenal 5 Jenis Sampah
       </p>
-      <div className="px-6 pb-5 bg-blueGreen lg:px-20">
+      <div className="px-5 pb-5 bg-blueGreen lg:px-20">
         <ContentEdukasiSampah
           img={S1}
           title="SAMPAH ORGANIK"

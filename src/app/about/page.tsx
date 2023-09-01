@@ -43,10 +43,10 @@ export default function Page() {
               cara yang baik dan benar, di ladampa sendiri tersedia berbagai
               fitur salah satu fiturnya yaitu “edukasi” yang dimana fitur ini,
               pengguna bisa mengetahui jenis sampah dan juga cara memilah sampah
-              yang baik dan benar . Mari kita bangun kesadaran akan pentingnya
+              yang baik dan benar. Mari kita bangun kesadaran akan pentingnya
               menjaga lingkungan dan menjadikan dunia ini tempat yang lebih
-              baik. Bersama ladampa untuk masa depan yang lebih
-              bersih dan hijau!
+              baik. Bersama ladampa untuk masa depan yang lebih bersih dan
+              hijau!
             </p>
             <p className="indent-8 text-[4vw] md:text-[2.5vw] lg:text-[1.4vw] xl:text-[1.3vw]">
               Oleh karena itu, untuk mencapai visi dalam good governance maka

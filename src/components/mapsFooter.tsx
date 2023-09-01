@@ -13,7 +13,7 @@ export default function MapsFooter() {
           Peta Lokasi
         </p>
         <MapContainer
-          className="h-[50vw] md:h-[30vw] lg:h-[20vw]"
+          className="h-[50vw] md:h-[25vw] xl:h-[15vw] sticky"
           center={[-7.435018404128583, 109.24912478085912]}
           zoom={12}
           scrollWheelZoom={false}

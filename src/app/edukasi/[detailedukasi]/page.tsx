@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image"
 import Link from "next/link"
 
 // assets
-import img from "../../../../public/assets/detailEdukasi.jpg"
+import img from "../../../../public/assets/detialEdukasi.svg"
 import logo from "../../../../public/assets/logo.png"
 
 interface OtherEdukasiProps {

@@ -2,9 +2,9 @@ import Image from "next/image"
 import Link from "next/link"
 
 // assests
-import img1 from "../../public/assets/berita terkini 1.jpg"
-import img2 from "../../public/assets/berita terkini 2.jpg"
-import img3 from "../../public/assets/berita terkini 3.jpg"
+import img1 from "../../public/assets/BT1.jpg"
+import img2 from "../../public/assets/BT2.jpg"
+import img3 from "../../public/assets/BT3.jpg"
 
 export default function BeritaTerkini() {
   return (
@@ -17,7 +17,7 @@ export default function BeritaTerkini() {
           <Link href="/berita/detail-berita">
             <Image
               src={img1}
-              alt=""
+              alt="img"
               className="w-full h-full object-cover lg:cursor-pointer lg:hover:scale-105 lg:transition-all"
             />
           </Link>
@@ -44,7 +44,7 @@ export default function BeritaTerkini() {
           <Link href="/berita/detail-berita">
             <Image
               src={img2}
-              alt=""
+              alt="img"
               className="w-full h-full object-cover lg:cursor-pointer lg:hover:scale-105 lg:transition-all"
             />
           </Link>
@@ -72,7 +72,7 @@ export default function BeritaTerkini() {
           <Link href="/berita/detail-berita">
             <Image
               src={img3}
-              alt=""
+              alt="img"
               className="w-full h-full object-cover lg:cursor-pointer lg:hover:scale-105 lg:transition-all"
             />
           </Link>

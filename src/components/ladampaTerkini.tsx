@@ -1,15 +1,10 @@
 import Image from "next/image"
-
-import posterLadampaTerkini from "../../public/assets/posterLadampaTerkini.png"
-import posterParentBerita from "../../public/assets/berita.png"
 import Link from "next/link"
 
-export default function LadampaTerkini() {
-  const borderStyle = {
-    borderBottom: "2px solid #D9D9D9",
-    paddingBottom: "10vw",
-  }
+import edukasi from "../../public/assets/detialEdukasi.svg"
+import berita from "../../public/assets/berita1.jpg"
 
+export default function LadampaTerkini() {
   return (
     <>
       <p className="text-primaryGrand title-components mt-12">
@@ -44,41 +39,12 @@ export default function LadampaTerkini() {
           </div>
         </div>
 
-        <div className="md:flex md:gap-7 md:border-t-2 md:border-slate-400 md:my-10 md:pt-10">
+        <div className="md:flex md:gap-7 md:border-t-2 md:border-slate-400 md:my-10 md:pt-10 xl:gap-20">
           <div className="border-t-2 border-slate-400 pt-5 md:border-none lg:flex lg:gap-3">
             <div className="w-full h-[40vw] overflow-hidden rounded-xl md:h-[25vw] lg:h-[12vw] lg:cursor-pointer">
               <Link href="/edukasi/detail-edukasi">
                 <Image
-                  src={posterParentBerita}
-                  alt=""
-                  className="w-full h-full object-cover lg:hover:scale-110 lg:transition-all"
-                />
-              </Link>
-            </div>
-            <div className="flex flex-col gap-2 my-3 lg:my-0">
-              <p className="text-primaryRed font-bold lg:text-[1.3vw]">
-                LADAMPA Edukasi
-              </p>
-              <p className="text-[3.5vw] font-bold md:text-[1.8vw] lg:text-[1.1vw] xl:text-[0.9vw]">
-                Banjir yang Dusebabkan oleh Penumpukan Sampah pada Area Tanggul
-                Purwokerto Timur
-              </p>
-              <p className="text-[2.7vw] md:text-[1.5vw] lg:text-[0.9vw] xl:text-[0.8vw]">
-                17 Juli 2023
-              </p>
-              <Link
-                href="/edukasi"
-                className="text-[3.5vw] text-primaryBlue font-bold text-end md:text-[2vw] lg:text-[1.1vw]"
-              >
-                Edukasi lainnya →
-              </Link>
-            </div>
-          </div>
-          <div className="border-t-2 border-slate-400 pt-5 md:border-none lg:flex lg:gap-3">
-            <div className="w-full h-[40vw] overflow-hidden rounded-xl md:h-[25vw] lg:h-[12vw] lg:cursor-pointer">
-              <Link href="/berita/detail-berita">
-                <Image
-                  src={posterParentBerita}
+                  src={berita}
                   alt=""
                   className="w-full h-full object-cover lg:hover:scale-110 lg:transition-all"
                 />
@@ -89,14 +55,41 @@ export default function LadampaTerkini() {
                 LADAMPA Berita
               </p>
               <p className="text-[3.5vw] font-bold md:text-[1.8vw] lg:text-[1.1vw] xl:text-[0.9vw]">
-                Banjir yang Dusebabkan oleh Penumpukan Sampah pada Area Tanggul
-                Purwokerto Timur
+                Banyumas Bangun Tempat Pengolahan Sampah Senilai Rp50,3 Miliar
+              </p>
+              <p className="text-[2.7vw] md:text-[1.5vw] lg:text-[0.9vw] xl:text-[0.8vw]">
+                1 Jnovember 2023
+              </p>
+              <Link
+                href="/berita"
+                className="text-[3.5vw] text-primaryBlue font-bold text-end md:text-[2vw] lg:text-[1.1vw]"
+              >
+                Berita lainnya →
+              </Link>
+            </div>
+          </div>
+          <div className="border-t-2 border-slate-400 pt-5 md:border-none lg:flex lg:gap-3">
+            <div className="w-full h-[40vw] overflow-hidden rounded-xl md:h-[25vw] lg:h-[12vw] lg:cursor-pointer">
+              <Link href="/berita/detail-berita">
+                <Image
+                  src={edukasi}
+                  alt=""
+                  className="w-full h-full object-cover lg:hover:scale-110 lg:transition-all"
+                />
+              </Link>
+            </div>
+            <div className="flex flex-col gap-2 my-3 lg:my-0">
+              <p className="text-primaryRed font-bold lg:text-[1.3vw]">
+                LADAMPA Edukasi
+              </p>
+              <p className="text-[3.5vw] font-bold md:text-[1.8vw] lg:text-[1.1vw] xl:text-[0.9vw]">
+                Pengelolaan Sampah di Banyumas Jadi Percontohan Nasional
               </p>
               <p className="text-[2.7vw] md:text-[1.5vw] lg:text-[0.9vw] xl:text-[0.8vw]">
                 17 Juli 2023
               </p>
               <Link
-                href="/berita"
+                href="/edukasi"
                 className="text-[3.5vw] text-primaryBlue font-bold text-end md:text-[2vw] lg:text-[1.1vw]"
               >
                 Berita lainnya →

@@ -52,40 +52,40 @@ export default function Pengaduan() {
       <div className="w-[90%] mx-auto border-b-4 border-slate-400 lg:flex lg:gap-10 xl:w-[80%]">
         <div className="border-2 border-primaryGrand shadow-md mx-auto my-10 p-5 rounded-xl md:p-10 lg:flex-1 lg:mb-20">
           <div className="flex flex-col gap-2 mb-5">
-            <p className="text-[5vw] font-bold md:text-[3vw] lg:text-[1.7vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
+            <p className="text-[4.5vw] font-bold md:text-[3vw] lg:text-[1.7vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
               PENGADUAN
             </p>
-            <p className="2xl:text-[1.1vw]">
+            <p className="text-[4vw] md:text-[2.8vw] xl:text-[1.2vw] 2xl:text-[1.1vw]">
               Selamat Datang Tegar Setio. Silahkan ajukan pengaduan anda
             </p>
           </div>
 
           <div>
-            <p className="text-[5vw] font-bold border-b-2 border-slate-400 md:text-[3vw] lg:text-[1.7vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
+            <p className="text-[4.5vw] font-bold border-b-2 border-slate-400 md:text-[3vw] md:pb-5 lg:text-[1.7vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
               FORM PENGADUAN
             </p>
 
             <form className="my-5 flex flex-col gap-5 overflow-hidden">
               <div className="flex flex-col gap-5 lg:flex-row">
-                <div className="item-form flex flex-col w-full">
-                  <label>Nama Depan</label>
-                  <input type="text" className="" />
+                <div className="item-form-pengaduan flex flex-col w-full">
+                  <label className="">Nama Depan</label>
+                  <input type="text" className="" placeholder="" />
                 </div>
-                <div className="item-form flex flex-col w-full">
+                <div className="item-form-pengaduan flex flex-col w-full">
                   <label>Nama Belakang</label>
-                  <input type="text" className="" />
+                  <input type="text" className="" placeholder="" />
                 </div>
               </div>
-              <div className="item-form flex flex-col">
+              <div className="item-form-pengaduan flex flex-col">
                 <label>Email atau Nomor Telepon</label>
-                <input type="text" className="" />
+                <input type="text" className="" placeholder="" />
               </div>
-              <p className="text-[4.5vw] text-center font-bold my-5 md:text-[4vw] xl:text-[1.5vw]">
+              <p className="text-[4.5vw] text-center font-bold my-5 md:text-[3vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
                 Lokasi Kejadian
               </p>
               <div className="flex flex-col gap-5 md:flex-row md:gap-5">
-                <div className="item-select w-full flex flex-col">
-                  <label>Kecamatan</label>
+                <div className="item-form-pengaduan w-full flex flex-col">
+                  <label className="">Kecamatan</label>
                   <select>
                     {kecamatan.map((value, i) => {
                       return (
@@ -96,8 +96,8 @@ export default function Pengaduan() {
                     })}
                   </select>
                 </div>
-                <div className="item-select w-full flex flex-col">
-                  <label>Kelurahan</label>
+                <div className="item-form-pengaduan w-full flex flex-col">
+                  <label className="">Kelurahan</label>
                   <select className="">
                     {Kelurahan.map((value, i) => {
                       return (
@@ -109,8 +109,8 @@ export default function Pengaduan() {
                   </select>
                 </div>
               </div>
-              <div className="item-select flex flex-col">
-                <label>RT / RW</label>
+              <div className="item-form-pengaduan flex flex-col">
+                <label className="">RT / RW</label>
                 <div className="flex gap-5">
                   <select className="">
                     {rt.map((value, i) => {
@@ -136,7 +136,20 @@ export default function Pengaduan() {
                 <label>Masukan gambar yang mendukung</label>
                 <input type="file" className="" />
               </div>
-              <div className="item-textarea flex flex-col">
+              <div className="flex items-center justify-between text-[3.5vw] md:text-[2.7vw] md:justify-start md:gap-7 lg:text-[1.3vw] xl:text-[1.1vw] 2xl:text-[1vw]">
+                <p>Banyak Sampah :</p>
+                <div className="flex items-center gap-3 mx-auto md:mx-0">
+                  <div className="flex items-center gap-1 md:gap-3">
+                    <input type="radio" name="gender" value="Sedang" />
+                    <label>Sedang</label>
+                  </div>
+                  <div className="flex items-center gap-1 md:gap-3">
+                    <input type="radio" name="gender" value="Banyak" />
+                    <label>Banyak</label>
+                  </div>
+                </div>
+              </div>
+              <div className="item-form-pengaduan flex flex-col">
                 <label>Deskripsi</label>
                 <textarea className="h-[30vw] rounded-md lg:h-[15vw] border-2 border-slate-400 p-2 outline-primaryGrand" />
               </div>

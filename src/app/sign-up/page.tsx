@@ -43,11 +43,6 @@ export default function Page() {
           <div className="hidden lg:flex lg:w-[80%] mx-auto lg:mt-14 xl:w-[70%]">
             <Image src={img} alt="" className="w-full h-full object-cover" />
           </div>
-          <p className="md:text-[2.7vw] lg:hidden">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever since the 1500s,
-          </p>
         </div>
         <div className="flx flex-col border-2 border-primaryGrand w-[90%] mx-auto mt-5 mb-20 p-5 rounded-xl shadow-md md:w-[80%] md:p-7 lg:flex-1 lg:my-0 lg:order-1">
           <div className="border-b-2 border-slate-400 pb-3">

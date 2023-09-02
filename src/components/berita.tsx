@@ -48,10 +48,12 @@ const ContentCarouselBerita = ({
       </div>
 
       <div className="flex flex-col gap-2 mt-2 lg:gap-1">
-        <p className="text-primaryRed font-semibold text-[3.8vw] md:text-[1.7vw] lg:text-[1vw]">
+        <p className="text-primaryRed font-semibold text-[3.8vw] md:text-[1.7vw] lg:text-[1vw] xl:text-[0.9vw]">
           {Title}
         </p>
-        <p className="text-[3vw] md:text-[1.3vw] lg:text-[0.8vw]">{Date}</p>
+        <p className="text-[3vw] md:text-[1.3vw] lg:text-[0.8vw] xl:text-[0.7]">
+          {Date}
+        </p>
       </div>
     </>
   )

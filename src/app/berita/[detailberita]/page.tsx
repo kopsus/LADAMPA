@@ -6,8 +6,8 @@ import img from "../../../../public/assets/berita1.jpg"
 import berita2 from "../../../../public/assets/berita2.jpg"
 import berita3 from "../../../../public/assets/berita3.jpg"
 import berita4 from "../../../../public/assets/berita4.jpg"
-import berita5 from "../../../../public/assets/berita terkini 2.jpg"
-import berita6 from "../../../../public/assets/berita terkini 3.jpg"
+import berita5 from "../../../../public/assets/BT1.jpg"
+import berita6 from "../../../../public/assets/BT2.jpg"
 import logo from "../../../../public/assets/logo.png"
 
 interface OtherBeritaProps {
@@ -29,7 +29,7 @@ const OtherBerita = ({ desc, date, img }: OtherBeritaProps) => {
         </Link>
       </div>
       <div className="flex-1">
-        <p className="mb-2 text-[3.5vw] text-primaryRed md:text-[1.3vw] lg:text-[1.2vw] xl:text-[1.1vw]">
+        <p className="mb-2 text-[3.5vw] text-primaryRed line-clamp-2 md:text-[1.3vw] lg:text-[1.2vw] xl:text-[1.1vw]">
           {desc}
         </p>
         <p className="text-[3vw] md:text-[1vw] lg:text-[1vw] xl:text-[0.9vw]">
@@ -54,7 +54,7 @@ export default function Page() {
           <div className="overflow-hidden w-full h-[60vw] rounded-xl md:h-[40vw] lg:h-[33vw]">
             <Image src={img} alt="" className="w-full h-full object-cover" />
           </div>
-          <div className="flex flex-col gap-3 mt-5">
+          <div className="flex flex-col gap-3 mt-5 text-[4vw] md:text-[2.5vw] lg:text-[1.4vw] xl:text-[1.3vw]">
             <p className="">
               PEMERINTAH Kabupaten Banyumas, Jawa Tengah, mengalokasikan dana
               Rp50,3 miliar untuk membangun tempat pembuangan akhir berbasis
@@ -62,15 +62,7 @@ export default function Page() {
               Kalibagor. TPA BLE menempati areal 3,5 hektare (ha). Alokasi
               anggaran senilai Rp50,3 miliar tersebut rinciannya ialah Rp44
               miliar bantuan dari APBN dan Rp6,3 miliar lainnya dari APBD
-              kabupaten sebagai pendamping. Pembangunan ini dalam rangka
-              mengatasi permasalahan sampah. TPA BLE memiliki konsep yang
-              berbeda dengan pengolahan sampah yang berfokus pada 3R, yakni
-              reduce, reuse, recycle. TPA BLE lebih dari itu karena akan
-              dilengkapi dengan kolam renang, pabrik plastik, kolam, dan
-              lainnya, jelas Bupati Banyumas Achmad Husein, kemarin. Bupati
-              mengatakan bahwa pembangunan TPA BLE direncanakan akan rampung
-              pada akhir 2021. Mudah-mudahan akhir tahun ini sudah bisa
-              beroperasi sehingga permasalahan sampah di Banyumas Berkurang
+              kabupaten sebagai pendamping.
             </p>
             <p className="text-black font-bold">Baca Juga :</p>
             <div className="border-l-textBlue border-l-4 pl-3 text-textBlue font-semibold">
@@ -81,6 +73,16 @@ export default function Page() {
                 </p>
               </Link>
             </div>
+            <p>
+              Pembangunan ini dalam rangka mengatasi permasalahan sampah. TPA
+              BLE memiliki konsep yang berbeda dengan pengolahan sampah yang
+              berfokus pada 3R, yakni reduce, reuse, recycle. TPA BLE lebih dari
+              itu karena akan dilengkapi dengan kolam renang, pabrik plastik,
+              kolam, dan lainnya, jelas Bupati Banyumas Achmad Husein, kemarin.
+              Bupati mengatakan bahwa pembangunan TPA BLE direncanakan akan
+              rampung pada akhir 2021. Mudah-mudahan akhir tahun ini sudah bisa
+              beroperasi sehingga permasalahan sampah di Banyumas Berkurang
+            </p>
           </div>
         </div>
 

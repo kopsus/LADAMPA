@@ -57,27 +57,35 @@
 
   /* PENGADUAN */
   .item-form label,
-  .item-select label,
-  .item-file label,
-  .item-textarea label,
   .input-form-KS label {
     @apply md:text-[2.5vw] lg:text-[1.3vw] xl:text-[1.1vw] 2xl:text-[1vw];
   }
 
-  .item-form input {
-    @apply p-2;
+  .item-file input {
+    @apply md:w-1/2;
+  }
+
+  .item-form-pengaduan input {
+    @apply px-2;
   }
 
   .item-form input,
-  .item-select select {
+  .item-form-pengaduan input,
+  .item-file input,
+  .item-form-pengaduan select {
     @apply border-2 border-slate-400 h-[8vw] text-black outline-primaryGrand rounded-md md:h-[6vw] md:text-[2.7vw] xl:h-[2.2vw] xl:text-[1.1vw] 2xl:text-[1vw];
+  }
+
+  .item-form-pengaduan label,
+  .item-file label {
+    @apply text-[3.5vw] md:text-[2.7vw] lg:text-[1.3vw] xl:text-[1.1vw] 2xl:text-[1vw];
   }
 
   .item-file input {
     @apply cursor-pointer text-black outline-slate-400 rounded-md;
   }
 
-  .item-select option {
+  .item-form-pengaduan option {
     @apply text-[2vw] md:text-[1.4vw] lg:text-[1.1vw] xl:text-[1vw] 2xl:text-[0.9vw];
   }
 
@@ -87,7 +95,7 @@
   }
 
   .input-form-KS input,
-  .input-form-KS textarea {
+  .item-form-pengaduan textarea {
     @apply md:text-[2.7vw] lg:text-[1.3vw] xl:text-[1.1vw];
   }
   /* EDN PENGADUAN */

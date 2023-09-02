@@ -31,7 +31,7 @@ export default function KritikSaran() {
           </div>
           <button
             type="submit"
-            className="bg-primaryGrand hover:bg-darkGreen text-white rounded-md py-1 md:py-3 lg:py-1 xl:text-[1vw] 2xl:text-[1.3vw]"
+            className="bg-primaryGrand hover:bg-darkGreen text-white rounded-md py-1 text-[3vw] md:text-[2.5vw] md:py-1 lg:py-1 xl:text-[1vw] 2xl:text-[1.3vw]"
           >
             Kirim
           </button>

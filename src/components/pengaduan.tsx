@@ -155,7 +155,7 @@ export default function Pengaduan() {
               </div>
               <button
                 type="submit"
-                className="bg-primaryGrand hover:bg-darkGreen text-white py-1 rounded-md md:py-3 lg:py-1 xl:text-[1vw] 2xl:text-[1.2vw]"
+                className="bg-primaryGrand hover:bg-darkGreen text-white py-1 rounded-md text-[3vw] md:text-[2.5vw] md:py-1 lg:py-1 xl:text-[1vw] 2xl:text-[1.2vw]"
               >
                 Kirim
               </button>

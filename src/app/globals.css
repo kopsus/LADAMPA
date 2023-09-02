@@ -62,7 +62,7 @@
   }
 
   .item-file input {
-    @apply md:w-1/2;
+    @apply w-[80%] md:w-1/2;
   }
 
   .item-form-pengaduan input {
@@ -73,7 +73,7 @@
   .item-form-pengaduan input,
   .item-file input,
   .item-form-pengaduan select {
-    @apply border-2 border-slate-400 h-[8vw] text-black outline-primaryGrand rounded-md md:h-[6vw] md:text-[2.7vw] xl:h-[2.2vw] xl:text-[1.1vw] 2xl:text-[1vw];
+    @apply border-2 border-slate-400 h-[8vw] text-black outline-primaryGrand rounded-md text-[3.3vw]  md:h-[6vw] md:text-[2.7vw] xl:h-[2.2vw] xl:text-[1.1vw] 2xl:text-[1vw];
   }
 
   .item-form-pengaduan label,

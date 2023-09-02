@@ -88,7 +88,7 @@ export default function Page() {
 
         <div className="mt-10 md:mt-0 md:flex-1">
           <p className="font-bold">Baca Juga :</p>
-          <div className="overflow-auto mt-5 mb-20 max-h-[85vw] flex flex-col gap-7 pr-3 pb-3 border-b-4 border-slate-400 md:flex-1 md:max-h-[65vw] lg:max-h-[42vw] lg:mb-32">
+          <div className="overflow-auto mt-5 mb-20 max-h-[85vw] flex flex-col gap-7 pr-3 pb-3 border-b-2 border-slate-400 md:flex-1 md:max-h-[65vw] lg:max-h-[42vw] lg:mb-32 xl:border-b-4">
             <OtherBerita
               desc="Banyumas Jadi Contoh Pengolahan Sampah, Sistemnya Luar Biasa!"
               date="20 agustus 2023"

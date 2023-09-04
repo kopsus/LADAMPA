@@ -79,7 +79,7 @@ export default function Testimoni() {
             <Carousel
               img={ihwan}
               name="Ichwan Nugroho"
-              title="Presiden Ukraina"
+              title="Mahasiswa"
               desc="Sangat Memuaskan untuk sebuah forum pengaduan"
             />
           </SwiperSlide>
@@ -87,7 +87,7 @@ export default function Testimoni() {
             <Carousel
               img={laela}
               name="Lailatul Mukaromah"
-              title="Presiden Arab"
+              title="Mahasiswa"
               desc="Sangat Memuaskan untuk sebuah forum pengaduan"
             />
           </SwiperSlide>
@@ -95,7 +95,7 @@ export default function Testimoni() {
             <Carousel
               img={tegar}
               name="Tegar Setio"
-              title="Presiden Korea Utara"
+              title="Mahasiswa"
               desc="Sangat Memuaskan untuk sebuah forum pengaduan"
             />
           </SwiperSlide>
@@ -103,7 +103,7 @@ export default function Testimoni() {
             <Carousel
               img={ihwan}
               name="Ichwan Nugroho"
-              title="Presiden Ukraina"
+              title="Mahasiswa"
               desc="Sangat Memuaskan untuk sebuah forum pengaduan"
             />
           </SwiperSlide>
@@ -111,7 +111,7 @@ export default function Testimoni() {
             <Carousel
               img={laela}
               name="Lailatul Mukaromah"
-              title="Presiden Arab"
+              title="Mahasiswa"
               desc="Sangat Memuaskan untuk sebuah forum pengaduan"
             />
           </SwiperSlide>
@@ -119,7 +119,7 @@ export default function Testimoni() {
             <Carousel
               img={tegar}
               name="Tegar Setio"
-              title="Presiden Korea Utara"
+              title="Mahasiswa"
               desc="Sangat Memuaskan untuk sebuah forum pengaduan"
             />
           </SwiperSlide>

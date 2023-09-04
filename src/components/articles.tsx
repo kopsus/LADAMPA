@@ -95,7 +95,9 @@ export default function Articles() {
             </div>
           </div>
           <div className="flex-1">
-            <p className="font-bold">Baca Juga :</p>
+            <p className="font-bold text-[4vw] md:text-[2.5vw] lg:text-[1.4vw] xl:text-[1.3vw]">
+              Baca Juga :
+            </p>
             <div className="overflow-auto mb-20 max-h-[85vw] flex flex-col gap-7 pr-3 md:pr-5 border-b-2 border-slate-400 py-5 md:flex-1 md:max-h-[65vw] lg:max-h-[42vw] lg:mb-32 xl:border-b-4">
               <ItemArticles
                 desc="Mahasiswa Unsoed Purwokerto Bantu Kelola Sampah Desa Papringan Banyumas"

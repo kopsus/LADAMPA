@@ -91,7 +91,9 @@ export default function Page() {
         </div>
 
         <div className="mt-10 md:mt-0 md:flex-1">
-          <p className="font-bold">Baca Juga :</p>
+          <p className="font-bold text-[4vw] md:text-[2.5vw] lg:text-[1.4vw] xl:text-[1.3vw]">
+            Baca Juga :
+          </p>
           <div className="overflow-auto mt-5 mb-20 max-h-[85vw] flex flex-col gap-7 pr-3 pb-3 border-b-2 border-slate-400 md:flex-1 md:max-h-[65vw] lg:max-h-[42vw] lg:mb-32 xl:border-b-4">
             <OtherEdukasi
               desc="Banyumas Jadi Contoh Pengolahan Sampah, Sistemnya Luar Biasa!"

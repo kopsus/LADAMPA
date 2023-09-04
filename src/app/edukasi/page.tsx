@@ -22,7 +22,7 @@ export default function Page() {
             Apa yang anda ketahuin tentang jenis jenis sampah?
           </p>
           <p className="text-[3vw] md:text-[2.5vw] lg:text-[1.7vw] xl:text-[1.3vw]">
-            Masih banyak orang yang belum mengetahuin mengenai jenjs-jenis
+            Masih banyak orang yang belum mengetahuin mengenai jenis-jenis
             Sampah. Sampah sendiri di golongkan kedalam beberapa jenis
             berdasarkan sifat.
           </p>

@@ -35,7 +35,7 @@ export default function Home() {
         </div>
       </div>
       <BarChart />
-      {/* <Maps /> */}
+      <Maps />
       <LadampaTerkini />
       <Testimoni />
     </div>

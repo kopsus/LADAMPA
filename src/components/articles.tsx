@@ -43,15 +43,6 @@ export default function Articles() {
   return (
     <>
       <div className="px-6 pt-10 lg:px-10 md:mb-20 lg:mt-12 xl:px-16">
-        {/* <div className="flex flex-col gap-3 mb-10 w-1/2">
-          <p className="text-primaryGrand text-[5vw] font-bold md:text-[3.5vw] lg:text-[2vw]">
-            Artikel & Event Terbaru
-          </p>
-          <p className="text-[4.3vw] md:text-[2.5vw] lg:text-[1.5vw] xl:text-[1.3vw]">
-            Baca dan ikuti event serta program-program yang kami lakukan untuk
-            bumi yang lebih baik{" "}
-          </p>
-        </div> */}
         <div className="md:flex md:gap-7 lg:gap-14">
           <div className="mb-10 md:flex-1 xl:flex-[1.5]">
             <p className=" text-primaryGrand text-[5vw] font-bold md:text-[3.5vw] lg:text-[2vw]">

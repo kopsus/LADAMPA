@@ -9,11 +9,11 @@ export default function MapsFooter() {
   return (
     <>
       <div className="flex-1 z-10">
-        <p className="mb-4 font-bold xl:text-[1.2vw] 2xl:text-[1.1vw]">
+        <p className="mb-4 font-bold lg:text-[1.5vw] xl:text-[1.2vw] 2xl:text-[1.1vw]">
           Peta Lokasi
         </p>
         <MapContainer
-          className="h-[50vw] md:h-[25vw] xl:h-[15vw] sticky"
+          className="h-[50vw] md:h-[25vw] lg:h-[15vw] xl:h-[15vw] sticky"
           center={[-7.435018404128583, 109.24912478085912]}
           zoom={12}
           scrollWheelZoom={false}

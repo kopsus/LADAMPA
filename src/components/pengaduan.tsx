@@ -6,6 +6,7 @@ import img from "../../public/assets/logo.png"
 
 // components
 import "../app/globals.css"
+import Reward from "./reward/reward"
 
 const kecamatan = [
   "	Ajibarang",
@@ -49,19 +50,19 @@ for (var i = 1; i <= 20; i++) {
 export default function Pengaduan() {
   return (
     <div className="">
-      <div className="w-[90%] mx-auto border-b-4 border-slate-400 lg:flex lg:gap-10 xl:w-[80%]">
-        <div className="border-2 border-primaryGrand shadow-md mx-auto my-10 p-5 rounded-xl md:p-10 lg:flex-1 lg:mb-20">
+      <div className="w-[90%] mx-auto border-b-4 border-slate-400 lg:flex lg:gap-10 xl:w-[90%]">
+        <div className="border-2 border-primaryGrand shadow-md mx-auto my-10 p-5 rounded-xl md:p-10 lg:mb-20 xl:w-[55%]">
           <div className="flex flex-col gap-2 mb-5">
-            <p className="text-[4.5vw] font-bold md:text-[3vw] lg:text-[1.7vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
+            <p className="text-[4.5vw] font-bold md:text-[3vw] lg:text-[2vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
               PENGADUAN
             </p>
-            <p className="text-[4vw] md:text-[2.8vw] xl:text-[1.2vw] 2xl:text-[1.1vw]">
+            <p className="text-[4vw] md:text-[2.8vw] lg:text-[1.8vw] xl:text-[1.2vw] 2xl:text-[1.1vw]">
               Selamat Datang Tegar Setio. Silahkan ajukan pengaduan anda
             </p>
           </div>
 
           <div>
-            <p className="text-[4.5vw] font-bold border-b-2 border-slate-400 md:text-[3vw] md:pb-5 lg:text-[1.7vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
+            <p className="text-[4.5vw] font-bold border-b-2 border-slate-400 md:text-[3vw] md:pb-5 lg:text-[2vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
               FORM PENGADUAN
             </p>
 
@@ -80,7 +81,7 @@ export default function Pengaduan() {
                 <label>Email atau Nomor Telepon</label>
                 <input type="text" className="" placeholder="" />
               </div>
-              <p className="text-[4.5vw] text-center font-bold my-5 md:text-[3vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
+              <p className="text-[4.5vw] text-center font-bold my-5 md:text-[3vw] lg:text-[2vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
                 Lokasi Kejadian
               </p>
               <div className="flex flex-col gap-5 md:flex-row md:gap-5">
@@ -155,21 +156,24 @@ export default function Pengaduan() {
               </div>
               <button
                 type="submit"
-                className="bg-primaryGrand hover:bg-darkGreen text-white py-1 rounded-md text-[3vw] md:text-[2.5vw] md:py-1 lg:py-1 xl:text-[1vw] 2xl:text-[1.2vw]"
+                className="bg-primaryGrand hover:bg-darkGreen text-white py-1 rounded-md text-[3vw] md:text-[2.5vw] md:py-1 lg:py-1 lg:text-[1.3vw] xl:text-[1vw] 2xl:text-[1.2vw]"
               >
                 Kirim
               </button>
             </form>
           </div>
         </div>
-        <div className="hidden lg:my-40 lg:flex lg:flex-col lg:flex-1 xl:flex-[0.8]">
-          <div className="w-[60%] mx-auto">
-            <Image src={img} alt="" className="w-full h-full object-cover" />
+        <div className="mt-10 xl:w-[30%]">
+          <div className="hidden lg:flex flex-col w-full">
+            <div className="w-[60%] mx-auto">
+              <Image src={img} alt="" className="w-full h-full object-cover" />
+            </div>
+            <div className="text-center my-10 text-[2vw] font-bold">
+              <p className="text-primaryRed">BANYUMAS</p>
+              <p>BEBAS SAMPAH</p>
+            </div>
           </div>
-          <div className="text-center my-10 text-[2vw] font-bold">
-            <p className="text-primaryRed">BANYUMAS</p>
-            <p>BEBAS SAMPAH</p>
-          </div>
+          <Reward />
         </div>
       </div>
     </div>

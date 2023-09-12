@@ -2,36 +2,35 @@
 
 import React, { useState } from "react"
 import Image from "next/image"
-import padlock from "../../../public/assets/padlock.png"
+import padlock from "../../public/assets/padlock.png"
 
 const ComponentsExp = ({
   text,
   index,
   onClick,
+  selected,
 }: {
   text: string
   index: number
   onClick: () => void
+  selected: boolean
 }) => {
-  const [isActive, setIsActive] = useState(false)
-
   const handleActive = () => {
-    setIsActive(!isActive)
+    onClick() // Memanggil fungsi onClick dengan indeks komponen ini
   }
 
   return (
     <div>
       <div
-        className={`overflow-hidden w-[10vw] rounded-full p-2 bg-white md:w-[7vw] lg:w-[3.5vw] xl:w-[2.5vw] xl:cursor-pointer xl:hover:bg-secondPrimary${
-          isActive ? "bg-primaryBlue" : "bg-white"
+        className={`overflow-hidden w-[10vw] rounded-full p-2 md:w-[7vw] lg:w-[3.5vw] xl:w-[2.5vw] xl:cursor-pointer ${
+          selected ? "bg-secondPrimary" : "bg-white"
         }`}
-        onClick={onClick}
+        onClick={handleActive}
       >
         <Image
           src={padlock}
           alt="padlock"
           className="w-full h-full object-cover"
-          onClick={handleActive}
         />
       </div>
       <p className="text-center text-white text-[3vw] md:text-[2vw] lg:text-[1vw] xl:text-[0.8vw]">
@@ -81,21 +80,25 @@ const Reward = () => {
                 text="20 xp"
                 index={0}
                 onClick={() => handleSelected(0)}
+                selected={selectedReward === 0}
               />
               <ComponentsExp
                 text="20 xp"
                 index={1}
                 onClick={() => handleSelected(1)}
+                selected={selectedReward === 1}
               />
               <ComponentsExp
                 text="30 xp"
                 index={2}
                 onClick={() => handleSelected(2)}
+                selected={selectedReward === 2}
               />
               <ComponentsExp
                 text="40 xp"
                 index={3}
                 onClick={() => handleSelected(3)}
+                selected={selectedReward === 3}
               />
             </div>
             <div className="bg-slate-400 w-full h-1/2 rounded-full">

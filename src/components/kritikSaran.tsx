@@ -8,7 +8,7 @@ export default function KritikSaran() {
         Kotak Kritik dan Saran
       </p>
 
-      <div className="w-[90%] mx-auto my-5 lg:w-[70%]">
+      <div className="w-[90%] mx-auto my-5 lg:w-[70%] xl:w-[60%]">
         <p className="my-5 md:text-[2.5vw] lg:text-[1.5vw] xl:text-[1.3vw]">
           Sampaikan aspirasi, kritik ataupun saran anda mengenai LADAMPA dalam
           mengelola kasus sampah daerah Kabupaten Banyumas!.

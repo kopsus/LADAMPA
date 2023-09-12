@@ -104,7 +104,7 @@ export default function LadampaTerkini() {
           *Info pengaduan penumpukan sampah Banyumas dan Sekitarnya
         </p>
         <Link href="/pengaduan">
-          <button className="px-3 py-1 rounded-md bg-primaryBlue text-[2.5vw] md:text-[1.6vw] lg:text-[1.1vw] xl:text-[0.9vw] text-white hover:bg-darkBlue">
+          <button className="px-3 py-1 rounded-md bg-red-600 hover:bg-red-700 text-[2.5vw] md:text-[1.6vw] lg:text-[1.1vw] xl:text-[0.9vw] text-white">
             LANJUT KE PENGADUAN
           </button>
         </Link>

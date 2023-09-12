@@ -28,7 +28,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="flex items-center justify-between bg-primaryGrand fixed top-0 w-full text-white py-3 px-5 z-50 xl:px-20 2xl:px-28">
+      <header className="flex items-center justify-between bg-primaryGrand fixed top-0 w-full text-white py-3 px-5 z-50 lg:px-16 xl:px-20 2xl:px-28">
         <div className="flex items-center gap-3">
           <div className="overflow-hidden border-r-2 border-white w-[10vw] pr-[3vw] md:w-[6vw] md:pr-[1vw] lg:w-[4vw]">
             <Image src={brand} alt="" className="w-full h-full" />
@@ -44,6 +44,14 @@ export default function Navbar() {
 
         <div className="hidden md:flex gap-5 justify-around lg:gap-10 lg:text-[1.3vw] xl:gap-12 xl:text-[1.2vw] 2xl:gap-16 2xl:text-[1.1vw]">
           <Link
+            href="/pengaduan"
+            className={`${
+              currentRoute === "/pengaduan" ? LinkActive : ""
+            } hover:font-semibold`}
+          >
+            Pengaduan
+          </Link>
+          <Link
             href="/berita"
             className={`${
               currentRoute === "/berita" ? LinkActive : ""
@@ -58,14 +66,6 @@ export default function Navbar() {
             } hover:font-semibold`}
           >
             Edukasi
-          </Link>
-          <Link
-            href="/pengaduan"
-            className={`${
-              currentRoute === "/pengaduan" ? LinkActive : ""
-            } hover:font-semibold`}
-          >
-            Pengaduan
           </Link>
           <Link
             href="/about"

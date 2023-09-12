@@ -6,7 +6,7 @@ import img from "../../public/assets/logo.png"
 
 // components
 import "../app/globals.css"
-import Reward from "./reward/reward"
+import Reward from "./reward"
 
 const kecamatan = [
   "	Ajibarang",
@@ -50,8 +50,8 @@ for (var i = 1; i <= 20; i++) {
 export default function Pengaduan() {
   return (
     <div className="">
-      <div className="w-[90%] mx-auto border-b-4 border-slate-400 lg:flex lg:gap-10 xl:w-[90%]">
-        <div className="border-2 border-primaryGrand shadow-md mx-auto my-10 p-5 rounded-xl md:p-10 lg:mb-20 xl:w-[55%]">
+      <div className="w-[90%] mx-auto border-b-4 border-slate-400 lg:flex lg:gap-10 xl:w-[85%] xl:gap-16">
+        <div className="border-2 border-primaryGrand shadow-md mx-auto my-10 p-5 rounded-xl md:p-10 lg:mb-20 xl:p-5 xl:w-[55%]">
           <div className="flex flex-col gap-2 mb-5">
             <p className="text-[4.5vw] font-bold md:text-[3vw] lg:text-[2vw] xl:text-[1.4vw] 2xl:text-[1.2vw]">
               PENGADUAN
@@ -137,19 +137,6 @@ export default function Pengaduan() {
                 <label>Masukan gambar yang mendukung</label>
                 <input type="file" className="" />
               </div>
-              <div className="flex items-center justify-between text-[3.5vw] md:text-[2.7vw] md:justify-start md:gap-7 lg:text-[1.3vw] xl:text-[1.1vw] 2xl:text-[1vw]">
-                <p>Banyak Sampah :</p>
-                <div className="flex items-center gap-3 mx-auto md:mx-0">
-                  <div className="flex items-center gap-1 md:gap-3">
-                    <input type="radio" name="gender" value="Sedang" />
-                    <label>Sedang</label>
-                  </div>
-                  <div className="flex items-center gap-1 md:gap-3">
-                    <input type="radio" name="gender" value="Banyak" />
-                    <label>Banyak</label>
-                  </div>
-                </div>
-              </div>
               <div className="item-form-pengaduan flex flex-col">
                 <label>Deskripsi</label>
                 <textarea className="h-[30vw] rounded-md lg:h-[15vw] border-2 border-slate-400 p-2 outline-primaryGrand" />
@@ -163,7 +150,7 @@ export default function Pengaduan() {
             </form>
           </div>
         </div>
-        <div className="mt-10 xl:w-[30%]">
+        <div className="mt-10 xl:w-[40%]">
           <div className="hidden lg:flex flex-col w-full">
             <div className="w-[60%] mx-auto">
               <Image src={img} alt="" className="w-full h-full object-cover" />

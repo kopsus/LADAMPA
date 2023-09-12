@@ -70,17 +70,9 @@ for (var i = 2000; i <= 2023; i++) {
 }
 
 export default function BarChart() {
-  // const borderStyle = {
-  //   borderBottom: "2px solid #D9D9D9",
-  //   paddingBottom: "5vw",
-  // }
-
   return (
     <>
       <div className="px-5 mt-16 mb-7 md:px-10 md:mt-20 lg:mt-32 xl:px-16 2xl:px-16">
-        {/* <p className="capitalize title-components text-primaryGrand">
-          rekap data
-        </p> */}
         <div className="mt-5 mb-3 md:mb-5 lg:mb-5 flex justify-end">
           <form className="flex items-center gap-3">
             <label className="font-bold text-[3vw] md:text-[2vw] lg:text-[1.1vw]">
@@ -116,14 +108,7 @@ export default function BarChart() {
         <div className="text-[2.5vw] text-center md:text-[2vw] lg:text-[1vw] lg:px-32">
           <p className="text-primaryRed font-bold">Data Sampah Banyumas</p>
         </div>
-
-        {/* <p className="text-[3vw] mt-8 mb-5 text-primaryGrand font-bold md:text-[2.5vw]  lg:text-[1.3vw]">
-          rekap data per tahun
-        </p> */}
-        <div
-          className="mt-8 grid grid-cols-2 border-b-2 border-slate-400 pb-7 aspect-[5/1] gap-5 text-white text-[3vw] md:pb-10 md:grid-cols-4 md:text-[1.8vw] md:mt-16 lg:mb-20 lg:mt-20 lg:text-[1.3vw] xl:pb-20 xl:text-[1.1vw] xl:aspect-[8/1] xl:gap-16 2xl:gap-16 2xl:aspect-[5/1]"
-          // style={borderStyle}
-        >
+        <div className="mt-8 grid grid-cols-2 border-b-2 border-slate-400 pb-7 aspect-[5/1] gap-5 text-white text-[3vw] md:pb-10 md:grid-cols-4 md:text-[1.8vw] md:mt-16 lg:mb-20 lg:mt-20 lg:text-[1.3vw] lg:aspect-[8/1] xl:pb-20 xl:text-[1.1vw] xl:aspect-[8/1] xl:gap-16 2xl:gap-16 2xl:aspect-[5/1]">
           <div className="bg-primaryRed pb-5 px-3 pt-3 lg:pb-7 rounded-lg ">
             <p>2.988.087</p>
             <p>Kasus Terkonfirmasi</p>

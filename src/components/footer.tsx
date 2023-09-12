@@ -117,7 +117,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <p className="text-center bg-darkGreen text-white py-2 text-[3vw] md:text-[2vw] lg:text-[1.1vw] xl:text-start xl:px-16">
+      <p className="text-center bg-darkGreen text-white py-2 text-[3vw] md:text-[2vw] lg:text-[1.1vw] lg:text-start lg:px-12">
         Copyright © 2023 Ladampa
       </p>
     </>

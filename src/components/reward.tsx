@@ -22,9 +22,9 @@ const ComponentsExp = ({
   return (
     <div>
       <div
-        className={`overflow-hidden w-[10vw] rounded-full p-2 md:w-[7vw] lg:w-[3.5vw] xl:w-[2.5vw] xl:cursor-pointer ${
-          selected ? "bg-secondPrimary" : "bg-white"
-        }`}
+        className={`overflow-hidden w-[10vw] rounded-full p-2 md:w-[7vw] lg:w-[3.5vw] xl:w-[2.5vw] xl:cursor-pointer 
+        ${selected ? "bg-secondPrimary" : "bg-white"}
+          `}
         onClick={handleActive}
       >
         <Image
@@ -75,7 +75,7 @@ const Reward = () => {
 
           {/* exp */}
           <div className="h-[10vw] flex items-center relative mt-3 md:h-[7vw] lg:h-[3.5vw] xl:h-[2.5vw]">
-            <div className="w-full absolute top-0 flex justify-between pl-10 md:pl-20 lg:pl-10">
+            <div className="w-full absolute top-0 flex justify-between pl-10 md:pl-20 lg:pl-36">
               <ComponentsExp
                 text="20 xp"
                 index={0}
@@ -88,7 +88,7 @@ const Reward = () => {
                 onClick={() => handleSelected(1)}
                 selected={selectedReward === 1}
               />
-              <ComponentsExp
+              {/* <ComponentsExp
                 text="30 xp"
                 index={2}
                 onClick={() => handleSelected(2)}
@@ -99,7 +99,7 @@ const Reward = () => {
                 index={3}
                 onClick={() => handleSelected(3)}
                 selected={selectedReward === 3}
-              />
+              /> */}
             </div>
             <div className="bg-slate-400 w-full h-1/2 rounded-full">
               <div className="bg-primaryBlue w-[10%] h-full rounded-full lg:w-[20%] xl:w-[10%]"></div>
@@ -112,13 +112,16 @@ const Reward = () => {
               Reward
             </p>
             {reward === true ? (
-              <ComponentReward text="handphone Iphone 14 Pro Max" />
+              <ComponentReward text="Kategori Postingan" />
             ) : (
               <>
                 {selectedReward === 0 ? (
-                  <ComponentReward text="Pulsa Internet Sebesar 5000" />
+                  <ComponentReward text="Kategori Postingan" />
                 ) : null}
                 {selectedReward === 1 ? (
+                  <ComponentReward text="Kategori Peringkat" />
+                ) : null}
+                {/* {selectedReward === 1 ? (
                   <ComponentReward text="Vocher kuota sebesar 10 GB" />
                 ) : null}
                 {selectedReward === 2 ? (
@@ -126,7 +129,7 @@ const Reward = () => {
                 ) : null}
                 {selectedReward === 3 ? (
                   <ComponentReward text="Bebas Keliling Dunia" />
-                ) : null}
+                ) : null} */}
               </>
             )}
           </div>

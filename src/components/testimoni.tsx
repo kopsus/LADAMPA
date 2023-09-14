@@ -12,9 +12,13 @@ import "swiper/css/navigation"
 import { Navigation } from "swiper/modules"
 
 // import assets
-import ihwan from "../../public/assets/ihwan.png"
-import laela from "../../public/assets/laela.jpg"
-import tegar from "../../public/assets/tegar.png"
+// import ihwan from "../../public/assets/ihwan.png"
+// import laela from "../../public/assets/laela.jpg"
+// import tegar from "../../public/assets/tegar.png"
+import novanda from "../../public/assets/novanda.jpg"
+import agus from "../../public/assets/agus.jpg"
+import rehan from "../../public/assets/rehan.jpg"
+import ali from "../../public/assets/ali.jpg"
 
 interface CarouselProps {
   img: StaticImageData
@@ -34,13 +38,13 @@ const Carousel = ({ img, name, title, desc }: CarouselProps) => {
           <p className="font-bold text-[3.8vw] md:text-[2.3vw] lg:text-[1.2vw] xl:text-[1.1vw]">
             {name}
           </p>
-          <p className="text-[3.3vw] md:text-[2vw] lg:text-[1vw] 2xl:text-[0.9vw]">
+          <p className="text-[3.3vw] md:text-[2vw] lg:text-[0.9vw] 2xl:text-[0.8vw]">
             {title}
           </p>
         </div>
       </div>
       <div className="mt-3">
-        <p className="text-[3.5vw] md:text-[2.1vw] lg:text-[1.1vw] xl:text-[1.1vw]">
+        <p className="text-[3.5vw] md:text-[2.1vw] lg:text-[1.1vw] xl:text-[1vw]">
           {desc}
         </p>
       </div>
@@ -77,6 +81,62 @@ export default function Testimoni() {
         >
           <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
             <Carousel
+              img={novanda}
+              name="Yuni Dwi S., S.T., M.Si."
+              title="Ahli Pertama TPL DLH Kab. Banyumas"
+              desc="membantu kami dalam penanganan masalah sampah di Kab.Banyumas"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
+            <Carousel
+              img={agus}
+              name="Agus Setyawan"
+              title="Team Sampah DLH"
+              desc="Solusi Cepat Atasi Sampah dengan Cara yang sangat mudah"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
+            <Carousel
+              img={rehan}
+              name="Rehan Nur Setywan"
+              title="Staff KSM"
+              desc="sangat membantu untuk daerah yang belum terdeteksi team sampah DLH"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
+            <Carousel
+              img={ali}
+              name="Aly Afandi"
+              title="Lurah Desa Berkoh"
+              desc="Membantu masyarakat untuk ikut berpartisipasi aktif dan peduli terhadap lingkungannya"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
+            <Carousel
+              img={novanda}
+              name="Yuni Dwi S., S.T., M.Si."
+              title="Ahli Pertama TPL DLH Kab. Banyumas"
+              desc="membantu kami dalam penanganan masalah sampah di Kab.Banyumas"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
+            <Carousel
+              img={agus}
+              name="Agus Setyawan"
+              title="Team Sampah DLH"
+              desc="Solusi Cepat Atasi Sampah dengan Cara yang sangat mudah"
+            />
+          </SwiperSlide>
+          <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
+            <Carousel
+              img={rehan}
+              name="Rehan Nur Setywan"
+              title="Staff KSM"
+              desc="sangat membantu untuk daerah yang belum terdeteksi team sampah DLH"
+            />
+          </SwiperSlide>
+          {/* <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
+            <Carousel
               img={ihwan}
               name="Ichwan Nugroho"
               title="Mahasiswa"
@@ -98,31 +158,7 @@ export default function Testimoni() {
               title="Mahasiswa"
               desc="Sangat Memuaskan untuk sebuah forum pengaduan"
             />
-          </SwiperSlide>
-          <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
-            <Carousel
-              img={ihwan}
-              name="Ichwan Nugroho"
-              title="Mahasiswa"
-              desc="Sangat Memuaskan untuk sebuah forum pengaduan"
-            />
-          </SwiperSlide>
-          <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
-            <Carousel
-              img={laela}
-              name="Lailatul Mukaromah"
-              title="Mahasiswa"
-              desc="Sangat Memuaskan untuk sebuah forum pengaduan"
-            />
-          </SwiperSlide>
-          <SwiperSlide className="bg-gradient-to-r from-gray-300 to-slate-200 shadow-lg rounded-xl py-3 px-5 my-5">
-            <Carousel
-              img={tegar}
-              name="Tegar Setio"
-              title="Mahasiswa"
-              desc="Sangat Memuaskan untuk sebuah forum pengaduan"
-            />
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </>

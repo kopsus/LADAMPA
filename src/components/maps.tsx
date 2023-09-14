@@ -27,33 +27,49 @@ export default function Maps() {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker
-          position={[-7.467708998303383, 109.3003460527841]}
+          position={[-7.409113745689558, 109.15060635447183]}
           draggable={true}
         >
-          <Popup>TPS PUSAT KALIBAGOR</Popup>
+          <Popup>Tpst3R Cilongok</Popup>
         </Marker>
         <Marker
-          position={[-7.481665617128672, 109.22515836915825]}
+          position={[-7.384194886983897, 109.08123009407198]}
           draggable={true}
         >
           <Popup className="text-[3vw] md:text-[1.7vw] lg:text-[0.8vw]">
-            TPS PUSAT PATIKRAJA
+            TPST Desa Karangklesem
           </Popup>
         </Marker>
         <Marker
-          position={[-7.510598647634356, 109.29382292041474]}
+          position={[-7.532292806944477, 109.28528051553798]}
           draggable={true}
         >
           <Popup className="text-[3vw] md:text-[1.7vw] lg:text-[0.8vw]">
-            TPS PUSAT BANYUMAS
+            TPST Kedunggede
           </Popup>
         </Marker>
         <Marker
-          position={[-7.435018404128583, 109.24912478085912]}
+          position={[-7.532817213939626, 109.18771556366345]}
           draggable={true}
         >
           <Popup className="text-[3vw] md:text-[1.7vw] lg:text-[0.8vw]">
-            Ini Kampus Gw
+            TPST Desa Rawalo
+          </Popup>
+        </Marker>
+        <Marker
+          position={[-7.444418424552904, 109.27576452504003]}
+          draggable={true}
+        >
+          <Popup className="text-[3vw] md:text-[1.7vw] lg:text-[0.8vw]">
+            TPST Desa Sokaraja Kulon
+          </Popup>
+        </Marker>
+        <Marker
+          position={[-7.370170049538218, 109.2341922213329]}
+          draggable={true}
+        >
+          <Popup className="text-[3vw] md:text-[1.7vw] lg:text-[0.8vw]">
+            TPST 3R REMPOAH
           </Popup>
         </Marker>
       </MapContainer>
